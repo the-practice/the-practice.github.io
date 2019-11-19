@@ -1,0 +1,91 @@
+body {
+	background: #00aeef;
+	font-family: 'EB Garamond', serif;	
+}
+
+.secondaryBackground {
+	background: #e9ecf0;
+}
+
+#header {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 350%;
+}
+
+ h2 {
+    color: black;
+}
+
+.legos {
+    color: white;
+}
+
+.blurb p {
+    color: black;
+    font-size: 1rem;
+}
+
+/* .content{
+    margin-top: 100px;
+} */
+
+#brand { color: black;}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover { color:#00aeef;}
+
+.navbar {
+    background: rgba(255, 255, 255, .3);
+}
+
+#headingGroup span { color: rgb(196, 40, 27); }
+
+/*.navbar.scrolled {
+    background: rgb(48, 85, 181);
+    transition: background 600ms;
+}*/
+
+@media(max-width: 935px) {
+    #headingGroup h2 {
+        font-weight: 100;
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .text {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media(min-width: 768px) {
+    .content {
+        margin-top: 100px;
+    }
+}
+
+.mapouter {
+	height: 400px;
+}
+.gmap_canvas {
+	height: 400px;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.couch {
+	object-fit: fill;
+}
+
+.map {
+  object-fit: fill;
+}
